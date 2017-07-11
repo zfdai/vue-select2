@@ -33,4 +33,4 @@ npm run build
 ---
 ## 图例
 	#demo-0
-![image](https://github.com/zfdai/vueFrame-datetimeshow/raw/master/screenshots/select2_1.png.png)
+![image](https://github.com/zfdai/vue-select2/blob/master/screenshots/select2_1.png)
