@@ -1,5 +1,5 @@
-# vueFrame
-> vue2+vuex+vue-router+axios+ElementUI+webpack+scss+es6+简单日历显示
+# vue-select2
+> vue2+vuex+vue-router+axios+ElementUI+webpack+scss+es6
 
 # 问题讨论请联系本人
 >Email:1184554547@qq.com
