@@ -1,0 +1,23 @@
+{
+  "name": "zf-vue-select2",
+  "version": "1.0.4",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zfdai/vue-select2.git"
+  },
+  "keywords": [
+    "select2",
+    "zf-vue-select2"
+  ],
+  "author": "zfdai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zfdai/vue-select2/issues"
+  },
+  "homepage": "https://github.com/zfdai/vue-select2#readme"
+}

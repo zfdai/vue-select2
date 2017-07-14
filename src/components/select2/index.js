@@ -1,3 +1,4 @@
 import Select2 from './index.vue';
-
-export { Select2 };
+// import Vue from 'vue'
+// Vue.component(Select2.name, Select2)
+export default Select2 

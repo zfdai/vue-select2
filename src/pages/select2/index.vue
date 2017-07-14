@@ -237,7 +237,8 @@
 	}
 </style>
 <script>
-	import Select2 from '../../components/select2/index.vue'
+	// import Select2 from '../../components/select2/index.vue'
+	import Select2 from 'zf-vue-select2'
 	export default{
 		components:{
 			Select2

@@ -21,7 +21,7 @@
 		<transition name="fade">
 			<div class="select2-options" v-show="showDropdown">	
 				<ul>
-					<li v-for="(item,index) in filterOptions" :key="new Date()" :class="{active:(prevData&&item.value==prevData.value)||(value==item.value&&!multiple),'mult-active':multipleListVal.includes(item.value)}" @click.stop="onChange(item)">{{item.label}}</li>
+					<li v-for="(item,index) in filterOptions" :key="item.value" :class="{active:(prevData&&item.value==prevData.value)||(value==item.value&&!multiple),'mult-active':multipleListVal.includes(item.value)}" @click.stop="onChange(item)">{{item.label}}</li>
 				</ul>
 				<div class="no-more-data" v-show="!isLoading&&(isDataOver||filterOptions.length==0)">
 					{{filterOptions.length!=0?scrollBottomTxt?scrollBottomTxt:noMoreData:noMatchTxt?noMatchTxt:noFilterData}}
@@ -224,6 +224,7 @@
 <script>
 	import clickoutside from './clickoutside.js'
 	export default {
+		name:'zf-vue-select2',
 		directives: { clickoutside },
 		data(){
 			return{
