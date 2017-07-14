@@ -12,6 +12,15 @@
 	<li><a href="http://element.eleme.io/#/zh-CN">ElementUI</a></li>
 </ul>
 
+##install dependencies
+npm install zf-vue-select2 --save
+##use
+import Select2 from 'zf-vue-select2'
+vue单文件：
+components:{
+  Select2
+}
+
 
 ## Build Setup
 
